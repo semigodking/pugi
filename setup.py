@@ -18,5 +18,5 @@ setup (name = 'pugi',
        author      = "Zhuofei Wang <semigodking@gmail.com>",
        description = """Python wrapper of pugixml.""",
        ext_modules = [pugi_module],
-       #py_modules = ['pugi'],
+       py_modules = ['pugi'],
        )
